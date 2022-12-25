@@ -1,0 +1,52 @@
+body{
+    background-image:url('https://c4.wallpaperflare.com/wallpaper/486/610/323/headphones-women-music-headphones-girl-monochrome-black-background-1920x1080-entertainment-music-hd-art-wallpaper-preview.jpg');
+    background-repeat:no-repeat;
+    background-size:100%;
+    text-align: right;
+
+}
+h.highlight{
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(111, 111, 170);
+    font-size:100px;
+    text-align:left;
+}
+h.highlight:hover{
+    font-family: 'Brush Script MT', cursive;
+    color:rgb(198, 162, 167);
+    font-size:105px;
+    text-align:left;
+}
+img{
+    border-radius:70%;
+    width:80px;
+    height:80px;
+}
+p{
+    font-size:30px;
+    font-family:cursive;
+    color:rgb(238, 226, 226);
+}
+p1{
+    font-size:30px;
+    color:rgb(220, 208, 208);
+    font-family:cursive;
+
+}
+p2{
+font-size:40px;
+color:rgb(228, 127, 127);
+font-family:cursive;
+}
+#myDIV {
+    outline: 3px solid black;
+    animation: mymove 3s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {outline: 4px solid rgb(202, 214, 218);}
+  }
+button{
+    font-size:100px;
+    padding:0%;
+}
